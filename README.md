@@ -1,4 +1,3 @@
-# #CAP5516
 # Deep Learning-based Pneumonia Detection via Chest X-Ray Images
 **CAP 5516 - Medical Image Computing** 
 **Assignment 1**
