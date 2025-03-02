@@ -57,18 +57,17 @@ This project implements deep learning techniques to classify pediatric chest X-r
 
 ## **Results and Analysis**
 ### **1. Training and Validation Metrics**
-Below are the training and validation loss curves for both models:
 
 | Model | Training Loss (Final) | Validation Loss (Final) | Training Accuracy (Final) | Validation Accuracy (Final) |
 |--------|----------------|-----------------|-------------------|--------------------|
-| **Model 1 (From Scratch)** | **0.296** | **Unstable, High Variance** | **91.6%** | **68.75%** |
-| **Model 2 (Pre-Trained)** | **0.465** | **Increasing Trend, Overfitting at Epoch 7+** | **83.47%** | **75.00%** |
+| **Model 1 (From Scratch)** | **0.2963** | **1.194** | **91.60%** | **68.75%** |
+| **Model 2 (Pre-Trained)** | **0.4658** | **0.5925** | **83.47%** | **75.00%** |
 
 ---
 
 #### **Observations:**
 - **Model 1:**
-   - **Overfitting:** The validation accuracy (68.75%) is significantly lower than the training accuracy (91.6%). A gap this significant (i.e., 22.85%) between training and validation accuracy indicates that Model 1 was most likely memorizing the training data as opposed to learning from features within the data.
+   - **Overfitting:** The validation accuracy (68.75%) is significantly lower than the training accuracy (91.60%). A gap this significant (i.e., 22.85%) between training and validation accuracy indicates that Model 1 was most likely memorizing the training data as opposed to learning from features within the data.
 - **Model 2:**
    - **Improved Generalization:** The pre-trained model has a smaller training-validation accuracy gap (8.47%) compared to Model 1 (22.85%), indicating better generalization.
 
