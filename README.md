@@ -1,8 +1,13 @@
-# Deep Learning-based Pneumonia Detection via Chest X-Ray Images
-**CAP 5516 - Medical Image Computing**
-**Assignment 1**
+# Deep Learning-based Pneumonia Detection via Chest X-Ray Images<br>
+![Misclassified X-ray Images](./missclassified_images_strip.PNG)
 ---
-## Project Overview
+#### **CAP 5516 - Medical Image Computing, Assignment 1**<br>
+
+
+
+
+## Project Overview 
+
 This project implements deep learning techniques to classify pediatric chest X-ray images into two categories: Pneumonia and Normal. The dataset used for this assignment consists of anterior-posterior chest X-ray images of children aged 1 to 5 years, organized into training, validation, and testing sets. The goal is to achieve high classification accuracy by employing two deep learning approaches using the ResNet-18 architecture.
 
 ---
